@@ -29,16 +29,19 @@ export default defineConfig(({ mode }) => {
         '@': path.resolve(__dirname, './src'),
       },
     },
-    server: {
-      host: '0.0.0.0',
-      port: parseInt(process.env.PORT || '8443'),
-      strictPort: true,
-      watch: { ignored: ['**/.figma/**'] },
-    },
-    preview: {
-      host: '0.0.0.0',
-      port: parseInt(process.env.PORT || '8443'),
-    },
+   server: {
+  host: '0.0.0.0',
+  port: parseInt(process.env.PORT || '8443'),
+  strictPort: true,
+  allowedHosts: ['saradely.onrender.com'],
+  watch: { ignored: ['**/.figma/**'] },
+},
+
+preview: {
+  host: '0.0.0.0',
+  port: parseInt(process.env.PORT || '8443'),
+  allowedHosts: ['saradely.onrender.com'],
+},
   }
 })
 
