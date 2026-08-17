@@ -1,0 +1,10 @@
+{
+  "description": "This web application offers a user-friendly interface for showcasing and managing a personal portfolio, ideal for creatives and professionals seeking to enhance their online presence.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

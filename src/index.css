@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-cream: #FFF8F6;
+  --color-blush: #FFEBF3;
+  --color-blush-deep: #FFD8E8;
+  --color-brown-dark: #4A2A1A;
+  --color-brown-mid: #6E625E;
+  --color-brand: #843C0C;
+  --color-brand-light: #8B4111;
+  --color-gold: #D4AB54;
+  --color-gold-light: #E5C66F;
+  --color-coral: #FF4B4B;
+  --color-beige: #D8AE89;
+  --color-beige-light: #E8CDB4;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Lato', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #FFF8F6;
+  color: #4A2A1A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8AE89;
+  border-radius: 3px;
+}
+
+:focus-visible {
+  outline: 2px solid #D4AB54;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
