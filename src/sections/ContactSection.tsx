@@ -47,7 +47,9 @@ export default function ContactSection() {
 
           <motion.div custom={0.3} variants={reveal}>
             <a
-              href="#"
+              href={`https://wa.me/59170821793?text=${encodeURIComponent(
+    "Hola SaraDely Cakes 👋, quisiera hacer un pedido. ¿Podrían brindarme información sobre los productos disponibles?"
+  )}`}
               aria-label="Haz tu pedido a SaraDely Cakes"
               className="inline-flex items-center gap-3 bg-brand text-cream px-10 py-4 font-body text-sm tracking-widest uppercase transition-[transform,box-shadow] duration-200 ease-out hover:bg-brand-light active:scale-[0.96]"
               style={{
@@ -73,7 +75,7 @@ export default function ContactSection() {
           {[
             {
               label: 'Teléfono / WhatsApp',
-              value: '[Tu número]',
+              value: '70821793',
               icon: (
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                   <path d="M3 5a2 2 0 012-2h1.5a1 1 0 01.95.68l1 3a1 1 0 01-.23 1.05L7.2 8.8a11 11 0 004 4l1.08-1.02a1 1 0 011.05-.23l3 1a1 1 0 01.68.95V15a2 2 0 01-2 2C6.84 17 3 10.16 3 5z" strokeLinecap="round" strokeLinejoin="round" />
@@ -82,7 +84,7 @@ export default function ContactSection() {
             },
             {
               label: 'Instagram',
-              value: '[@saradely]',
+              value: 'Saradely Cakes',
               icon: (
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                   <rect x="3" y="3" width="14" height="14" rx="4" />
