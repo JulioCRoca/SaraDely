@@ -48,7 +48,7 @@ export default function ContactSection() {
           <motion.div custom={0.3} variants={reveal}>
             <a
               href={`https://wa.me/59170821793?text=${encodeURIComponent(
-    "Hola SaraDely Cakes 👋, quisiera hacer un pedido. ¿Podrían brindarme información sobre los productos disponibles?"
+    "Hola SaraDely Cakes, quisiera hacer un pedido. ¿Podrían brindarme información sobre los productos disponibles?"
   )}`}
               aria-label="Haz tu pedido a SaraDely Cakes"
               className="inline-flex items-center gap-3 bg-brand text-cream px-10 py-4 font-body text-sm tracking-widest uppercase transition-[transform,box-shadow] duration-200 ease-out hover:bg-brand-light active:scale-[0.96]"
