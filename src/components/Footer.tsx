@@ -44,8 +44,8 @@ export default function Footer() {
             <p className="text-xs tracking-widest uppercase text-cream/40 mb-5 font-body">Contacto</p>
             <ul className="flex flex-col gap-3" role="list">
               {[
-                { label: 'Teléfono', value: '[Tu número]' },
-                { label: 'Instagram', value: '[@saradely]' },
+                { label: 'Teléfono', value: '70821793' },
+                { label: 'Instagram', value: 'SaraDely Cakes' },
                 { label: 'Email', value: '[Tu email]' },
               ].map(({ label, value }) => (
                 <li key={label} className="text-sm">
