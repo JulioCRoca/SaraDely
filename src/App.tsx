@@ -2,9 +2,11 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import HeroSection from '@/sections/HeroSection'
 import AboutSection from '@/sections/AboutSection'
+import HistoriaSection from '@/sections/HistoriaSection'
 import SloganSection from '@/sections/SloganSection'
 import GallerySection from '@/sections/GallerySection'
 import MomentsSection from '@/sections/MomentsSection'
+import TestimonialsSection from '@/sections/TestimonialsSection'
 import ContactSection from '@/sections/ContactSection'
 
 export default function App() {
@@ -15,9 +17,11 @@ export default function App() {
       <main>
         <HeroSection />
         <AboutSection />
-        <SloganSection />
+        <HistoriaSection />
         <GallerySection />
+        <SloganSection />
         <MomentsSection />
+        <TestimonialsSection />
         <ContactSection />
       </main>
 

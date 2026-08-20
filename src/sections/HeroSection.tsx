@@ -146,6 +146,7 @@ export default function HeroSection() {
       >
         <HeroImage />
       </motion.div>
+      
     </section>
   )
 }
